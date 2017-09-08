@@ -1,0 +1,311 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.bg {
+    background-image: url("../Res/landing-bg-1.jpg");
+    min-height: 520px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: white !important;
+    border-color: white;
+}
+
+#home a {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#home a:hover {
+    color: white;
+}
+
+.sign-up-button {
+    border-radius: 70px;
+    background-color: #CC0D1F !important;
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+}
+
+.sign-up-icon {
+    max-height: 35px;
+}
+
+
+
+.icon-fix {
+    background-color: white !important;
+    margin-left: 10px;
+    padding: 8px;
+}
+
+.form-control {
+
+    border: none;
+    border-radius: 0px;
+}
+
+.submit-button {
+    padding: 16px;
+    background-color: saddlebrown;
+    border-radius: 0px;
+    margin: 10px;
+    color: white;
+    background-color: #121A48;
+    opacity: .8;
+}
+
+#form {
+    margin-top: 180px;
+}
+
+.about-us {
+    margin-top: 50px;
+}
+
+.about-us h4,
+p {
+    padding-top: 10px;
+    color: black!important;
+}
+
+.about-us img {
+    padding-top: 30px;
+    max-width: 20%;
+}
+
+.about-details h4 {
+    padding-top: 30px;
+}
+
+.about-details p {
+    padding-top: 10px;
+}
+
+.about-details img {
+    padding-top: 10px;
+    max-width: 70%;
+}
+
+.danger {
+    color: #FF3333;
+}
+
+#get-started-btn {
+    background-color: #FF3333 !important;
+    border-radius: 0px !important;
+    padding: 10px 30px;
+}
+
+#tabs-margin {
+    background-color: #E7F2F2;
+    margin-top: 50px;
+}
+
+#partner {
+    background-color: #EC615E;
+}
+
+#partner h3,
+p {
+    padding-top: 10px;
+    color: white;
+}
+
+#get-started {
+    background-color: #171647;
+    border-radius: 0px !important;
+    padding: 10px 30px;
+}
+
+#partner-pad {
+    padding-top: 40px;
+}
+
+#locations {
+    background-color: #C9E5F3;
+}
+
+#suggestions {
+    height: 100%;
+    margin: auto;
+}
+
+#suggestions a {
+    color: #FF3333;
+}
+
+#sugst-btn {
+    background-color: #FF3333 !important;
+    border-radius: 0px !important;
+    padding: 15px 40px;
+    color: white;
+}
+
+#help {
+
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.outline-btn {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+
+#pad1 {
+    padding: 5px 137px;
+}
+
+#pad2 {
+    padding: 5px 105px;
+}
+
+#pad3 {
+    padding: 5px 60px;
+}
+
+#pad4 {
+    padding: 5px 97px;
+}
+
+#pad5 {
+    padding: 5px 158px;
+}
+
+.bg1 {
+    background-image: url("../Res/landing-bg-2.jpg");
+    /*    min-height:50%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.alpha {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.bg1 p {
+    color: white !important;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.bg1 h3 {
+    padding-bottom: 50px;
+}
+
+#bg-btn {
+    background-color: #FF3333 !important;
+    border-radius: 0px !important;
+    padding: 10px 40px;
+    opacity: .8;
+}
+
+#row-fix {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#row-fix p {
+    padding: 0px;
+    margin: 5px;
+    color: #ABA9B9 !important;
+}
+
+#row-fix img {
+    width: 10%;
+}
+
+#tabs-margin .nav {
+    display: block !important;
+}
+
+.tab-mod li {
+    list-style: none;
+}
+
+#tabs-margin a {
+    text-decoration: none;
+    color: #172556 !important;
+    padding: 20px 10px;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+}
+
+#tabs-margin a:hover {
+    color: white!important;
+    background-color: #172556;
+}
+
+.tab-mod {
+
+    margin-bottom: 5px;
+    border-right: 5px solid #172556;
+}
+
+#tabs-margin .active a {
+    background-color: #172556;
+    color: white !important;
+}
+
+.content-margin {
+    margin-top: 50px;
+}
+
+
+@media (max-width:580px) {
+    #form {
+        margin-top: 10px !important;
+    }
+    .icon-fix {
+        margin: 5px;
+        width: 100%;
+    }
+    .sm-media {
+        text-align: center !important;
+    }
+    #pad1 {
+        padding: 2px 30px;
+    }
+    #pad2 {
+        padding: 2px 30px;
+    }
+    #pad3 {
+        padding: 2px 0px;
+    }
+    #pad4 {
+        padding: 2px 30px;
+    }
+    #pad5 {
+        padding: 2px 30px;
+    }
+    #suggestions {
+        text-align: center !important;
+        padding-bottom: 10px;
+    }
+}
